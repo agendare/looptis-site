@@ -74,7 +74,7 @@ export default function Footer() {
                LinkedIn
             </a>
          </div>
-         <div style={{ marginTop: "30px" }}>
+         <div style={{ marginTop: "40px" }}>
             <p style={{ margin: 0, fontSize: "30px" }}>
                © 2024 Looptis. Todos os direitos reservados.
             </p>
