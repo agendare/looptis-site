@@ -1,6 +1,15 @@
 import React from "react";
 import softwareDevelopment from "../assets/soft.jpg";
 export default function Home() {
+   const handleWhatsAppClick = () => {
+      const phoneNumber = "558535145360";
+      const message =
+         "Olá, gostaria de saber mais sobre as soluções de software da Looptis.";
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+         message
+      )}`;
+      window.open(url, "_blank");
+   };
    return (
       <div
          style={{
@@ -31,6 +40,7 @@ export default function Home() {
                   fontSize: "18px",
                   fontWeight: "bold",
                }}
+               onClick={handleWhatsAppClick}
             >
                Entre em contato
             </button>
